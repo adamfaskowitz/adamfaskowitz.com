@@ -9,17 +9,16 @@
 .card {
     display: inline-block;
     position: relative;
-    background:linear-gradient(to bottom, skyblue 60%, darkblue 60%);
-    height: 300px;
-    width: 220px;
+    height: 350px;
+    width: 250px;
     margin: 10px;
     overflow: hidden;
 }
 
 .card .main_img {
     position: absolute;
-    width:200px;
-    height:250px;
+    width:225px;
+    height:300px;
     border-radius:15px;
     box-shadow:0 0 0px 2px white;
     left:8px;
@@ -42,8 +41,8 @@
     border:2px solid black;
     box-shadow:5px 3px black;
     background:white;
-    bottom:80%;
-    left:72%;
+    top:1%;
+    right:3%;
     font-family:'Arial Condensed', sans-serif;
     line-height:50px;
     font-size:12px;
