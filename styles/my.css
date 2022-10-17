@@ -6,6 +6,10 @@
     font-weight: normal;
 }
 
+* { 
+  font-family:'zurich';
+}
+
 .header {
   background-color: #eaded6;
   text-align: center;
