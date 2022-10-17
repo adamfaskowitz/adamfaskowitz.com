@@ -6,6 +6,35 @@
     font-weight: normal;
 }
 
+.header {
+  background-color: #eaded6;
+  text-align: center;
+  padding: 20px;
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #ce3331;
+}
+
+/* Navbar links */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #eaded6;
+  color: black;
+}
+
+
 .grid {
     display: flex;
     flex-wrap: wrap;
