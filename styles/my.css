@@ -6,7 +6,7 @@
     font-weight: normal;
 }
 
-* { 
+* {
   font-family:'zurich';
 }
 
@@ -38,6 +38,20 @@
   color: black;
 }
 
+hr.vertical {
+    height:10%;
+    width:0;
+    border:3px solid #e236be;
+    justify-content: center;
+}
+
+.project_section {
+  width: 90%;
+  background-color: #white;
+  border:5px solid #e236be;
+  text-align: center;
+  padding: 20px;
+}
 
 .grid {
     display: flex;
