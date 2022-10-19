@@ -254,7 +254,9 @@ hr.vertical {
 }
 .about-me-container,
 .about-me-container2 {
+    font-family:'Arial Condensed', sans-serif;
     flex-direction: row;
+    margin-top: 3em;
     width: 95%;
     margin: 0 auto;
 }
