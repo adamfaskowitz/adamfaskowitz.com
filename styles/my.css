@@ -45,14 +45,6 @@ hr.vertical {
     justify-content: center;
 }
 
-.project_section {
-  width: 90%;
-  background-color: #white;
-  border:5px solid #e236be;
-  text-align: center;
-  padding: 20px;
-}
-
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -182,4 +174,23 @@ hr.vertical {
 
 @keyframes shine {
   100% { background-position:0% 0%; opacity:0; }
+}
+
+.project_section {
+  width: 90%;
+  background-color: #white;
+  border:5px solid #e236be;
+  text-align: center;
+  padding: 20px;
+}
+
+.project_section .proj_img {
+    position: absolute;
+    width:225px;
+    height:300px;
+    object-fit: cover;
+    border-radius:15px;
+    box-shadow:0 0 0px 2px white;
+    left:12.5px;
+    bottom:10px;
 }
