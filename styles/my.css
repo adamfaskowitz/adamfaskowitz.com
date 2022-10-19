@@ -59,7 +59,6 @@ hr.vertical {
     margin: 10px;
     overflow: hidden;
     cursor: pointer;
-    box-shadow: 6px 7px 28px 0 rgba(16, 16, 16, 0.2);
 }
 
 .card .main_img {
