@@ -240,3 +240,40 @@ hr.vertical {
 @keyframes shine {
   100% { background-position:0% 0%; opacity:0; }
 }
+
+.about-me-text {
+    flex-grow: 1;
+}
+.about-me-image {
+    width: 50%;
+    margin: 0 auto;
+}
+.about-me-image img{
+    width: 100%;
+    border-radius: 3px;
+}
+.about-me-container,
+.about-me-container2 {
+    flex-direction: row;
+    width: 95%;
+    margin: 0 auto;
+}
+/*Desktop*/
+@media screen and (min-width: 1068px) {
+    .about-me-container {
+        display: flex;
+        width: 75%;
+        margin-top: 3em;
+        margin-bottom: -10vh;
+    }
+    .about-me-text {
+        margin-right: 5%;
+    }
+    .about-me-image img{
+        width: 25vw;
+    }
+}
+
+.shadow {
+    box-shadow: 6px 7px 28px 0 rgba(16, 16, 16, 0.2);
+}
