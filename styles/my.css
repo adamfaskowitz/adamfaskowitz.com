@@ -12,6 +12,7 @@
 
 .header {
   background-color: #eaded6;
+  border:2px solid #eaded6;
   text-align: center;
   padding: 20px;
 }
