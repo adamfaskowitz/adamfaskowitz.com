@@ -196,7 +196,7 @@ hr.vertical {
     background: rgba(0, 0, 0, .6);
 }
 
-.icard:hover {
+.card:hover {
   transform:rotateX(0deg) rotateZ(0deg);
   box-shadow:-2px 5px 2px rgba(0,0,0,.1);
   opacity:1;
