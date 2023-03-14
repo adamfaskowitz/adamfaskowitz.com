@@ -7,41 +7,38 @@
 }
 
 * {
-  font-family:'zurich';
+    font-family: 'zurich';
 }
 
 .header {
-  background-color: #eaded6;
-  text-align: center;
-  padding: 20px;
+    background-color: #eaded6;
+    text-align: center;
+    padding: 20px;
 }
 
-/* The navbar container */
 .topnav {
-  overflow: hidden;
-  background-color: #ce3331;
+    overflow: hidden;
+    background-color: #ce3331;
 }
 
-/* Navbar links */
 .topnav a {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-/* Links - change color on hover */
 .topnav a:hover {
-  background-color: #eaded6;
-  color: black;
+    background-color: #eaded6;
+    color: black;
 }
 
 hr.vertical {
-    height:10%;
-    width:0;
-    border:3px solid #e236be;
+    height: 10%;
+    width: 0;
+    border: 3px solid #e236be;
     justify-content: center;
 }
 
@@ -62,133 +59,94 @@ hr.vertical {
     box-shadow: 6px 7px 28px 0 rgba(16, 16, 16, 0.2);
 }
 
-.card .main_img {
+.card .main_img,
+.card .main_img_2 {
     position: absolute;
-    width:225px;
-    height:300px;
+    width: 225px;
+    height: 300px;
     object-fit: cover;
-    border-radius:15px;
-    box-shadow:0 0 0px 2px white;
-    left:8px;
-    top:6px;
+    border-radius: 15px;
+    box-shadow: 0 0 0px 2px white;
+}
+
+.card .main_img {
+    left: 8px;
+    top: 6px;
 }
 
 .card .main_img_2 {
-    position: absolute;
-    width:225px;
-    height:300px;
-    object-fit: cover;
-    border-radius:15px;
-    box-shadow:0 0 0px 2px white;
-    left:12.5px;
-    bottom:15px;
+    left: 12.5px;
+    bottom: 15px;
 }
 
-.card .logo {
-    position:absolute;
-    bottom:10px;
-    right:10px;
-    max-width:75px;
-    max-height:25px;
-}
-
+.card .logo,
 .card .logo_2 {
-    position:absolute;
-    bottom:10px;
-    right:10px;
-    max-width:75px;
-    max-height:25px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    max-width: 75px;
+    max-height: 25px;
+}
+
+.card .bubble,
+.card .bubble_2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 5px 3px black;
+    background: white;
+    font-family: 'Arial Condensed', sans-serif;
+    line-height: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    overflow: hidden;
 }
 
 .card .bubble {
-    position: absolute;
-    width:50px;
-    height:50px;
-    border-radius:50%;
-    border:2px solid black;
-    box-shadow:5px 3px black;
-    background:white;
-    top:1%;
-    right:3%;
-    font-family:'Arial Condensed', sans-serif;
-    line-height:50px;
-    font-size:12px;
-    font-weight:600;
-    text-align:center;
-    overflow:hidden;
+    top: 1%;
+    right: 3%;
 }
 
 .card .bubble_2 {
+    bottom: 3%;
+    right: 3%;
+}
+
+.card .name,
+.card .name_2,
+.card .position,
+.card .position_2 {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+    line-height: 18px;
     position: absolute;
-    width:50px;
-    height:50px;
-    border-radius:50%;
-    border:2px solid black;
-    box-shadow:5px 3px black;
-    background:white;
-    bottom:3%;
-    right:3%;
-    font-family:'Arial Condensed', sans-serif;
-    line-height:50px;
-    font-size:12px;
-    font-weight:600;
-    text-align:center;
-    overflow:hidden;
+    left: 10px;
+    color: white;
+}
+
+.card .name,
+.card .name_2 {
+    letter-spacing: 0.5px;
+}
+
+.card .position,
+.card .position_2 {
+    font-size: 10px;
+    letter-spacing: 0px;
+    bottom: 7px;
 }
 
 .card .name {
-  font-family:'zurich';
-  font-size:14px;
-  font-weight:600;
-  text-align:left;
-  width:100%;
-  line-height:18px;
-  letter-spacing:0.5px;
-  position:absolute;
-  left:10px;
-  bottom:20px;
-  color:white;
+    bottom: 20px;
 }
 
 .card .name_2 {
-  font-family:'zurich';
-  font-size:14px;
-  font-weight:600;
-  text-align:center;
-  width:100%;
-  line-height:18px;
-  letter-spacing:0.5px;
-  position:absolute;
-  top:10px;
-  color:white;
-}
-
-.card .position {
-  font-family:'zurich';
-  font-size:10;
-  font-weight:600;
-  text-align:left;
-  width:100%;
-  line-height:18px;
-  letter-spacing:0px;
-  position:absolute;
-  left:10px;
-  bottom:7px;
-  color:white;
-}
-
-.card .position_2 {
-  font-family:'zurich';
-  font-size:10;
-  font-weight:600;
-  text-align:left;
-  width:100%;
-  line-height:18px;
-  letter-spacing:0px;
-  position:absolute;
-  left:10px;
-  bottom:7px;
-  color:white;
+    top: 10px;
 }
 
 .card:hover .after {
@@ -197,71 +155,78 @@ hr.vertical {
 }
 
 .card:hover {
-  transform:rotateX(0deg) rotateZ(0deg);
-  box-shadow:-2px 5px 2px rgba(0,0,0,.1);
-  opacity:1;
+    transform: rotateX(0deg) rotateZ(0deg);
+    box-shadow: -2px 5px 2px rgba(0, 0, 0, .1);
+    opacity: 1;
 }
 
 .card:hover > .shine {
-  animation:shine 1.5s linear forwards;
-  opacity:.25;
+    animation: shine 1.5s linear forwards;
+    opacity: .25;
 }
 
-
-.threads:after, .threads:before {
-  content:'';
-  position:absolute;
-  width:100%;
-  height:100%;
-  border:2px dashed red;
-  border-radius:50%;
-}
+.threads:after,
 .threads:before {
-  left:-2px;
-  top:-80%;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px dashed red;
+    border-radius: 50%;
 }
+
+.threads:before {
+    left: -2px;
+    top: -80%;
+}
+
 .threads:after {
-  left:0px;
-  top:70%;
+    left: 0px;
+    top: 70%;
 }
 
 .shine {
-  width:100%;
-  height:100%;
-  background:linear-gradient(45deg, transparent 40%, rgba(255,255,255,1) 50%, transparent 60%);
-  position:absolute;
-  top:0;
-  left:0;
-  opacity:0;
-  background-size:200% 200%;
-  background-position:0% -250%;
-  z-index:9;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent 40%, rgba(255, 255, 255, 1) 50%, transparent 60%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-size: 200% 200%;
+    background-position: 0% -250%;
+    z-index: 9;
 }
 
 @keyframes shine {
-  100% { background-position:0% 0%; opacity:0; }
+    100% {
+        background-position: 0% 0%;
+        opacity: 0;
+    }
 }
 
 .about-me-text {
     flex-grow: 1;
 }
+
 .about-me-image {
     width: 50%;
     margin: 0 auto;
 }
-.about-me-image img{
+
+.about-me-image img {
     width: 100%;
     border-radius: 3px;
 }
+
 .about-me-container,
 .about-me-container2 {
-
     flex-direction: row;
     margin-top: 3em;
     width: 95%;
     margin: 0 auto;
 }
-/*Desktop*/
+
 @media screen and (min-width: 1068px) {
     .about-me-container {
         display: flex;
@@ -272,11 +237,15 @@ hr.vertical {
     .about-me-text {
         margin-right: 5%;
     }
-    .about-me-image img{
+    .about-me-image img {
         width: 25vw;
     }
 }
 
 .shadow {
     box-shadow: 6px 7px 28px 0 rgba(16, 16, 16, 0.2);
+}
+
+p {
+    font-family:'LuckiestGuy';
 }
