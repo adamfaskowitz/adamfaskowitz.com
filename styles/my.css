@@ -10,15 +10,35 @@
     font-family: 'zurich';
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #efeae7;
+}
+
+.header, .topnav {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.topnav a, .topnav img {
+    height: 20px;
+}
+
 .header {
     background-color: #eaded6;
+    background-image: linear-gradient(to bottom, #f0ebe4 0%, #bba79a 100%);
     text-align: center;
     padding: 20px;
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,0.3);
 }
 
 .topnav {
     overflow: hidden;
     background-color: #ce3331;
+    box-shadow: 0 8px 6px -6px rgba(17, 1, 1, 0.2);
 }
 
 .topnav a {
@@ -33,6 +53,7 @@
 .topnav a:hover {
     background-color: #eaded6;
     color: black;
+    text-decoration: none;
 }
 
 hr.vertical {
