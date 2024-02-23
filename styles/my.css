@@ -18,7 +18,7 @@ body {
 
 .header {
     background-color: #eaded6;
-    background-image: linear-gradient(to bottom, #f0ebe4 0%, #bba79a 100%);
+    background-image: linear-gradient(to bottom, #f0ebe4 0%, #dcd3cd 100%);
     text-align: center;
     padding: 20px;
     box-shadow: 0 8px 6px -6px rgba(0,0,0,0.3);
